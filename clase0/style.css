@@ -1,0 +1,160 @@
+body{
+    background-color: black
+
+}
+#wrapper{
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items:center ;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+}
+.head, .icons,.integrantes, .banner, .descrip, .text-conteiner,.text-descrip,.title-descrip,.productos,.staff{
+    display: flex;
+}
+.head{
+    width: 100%;
+    padding: .5rem;
+    background-color: grey;
+}
+.title{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.icons{
+    width: 90%;
+    justify-content: end;
+}
+.icons :hover{
+    cursor: pointer;
+}
+.icons i{
+    padding: .5rem;
+}
+
+.banner{
+    width: 90%;
+    height: 35vh;
+    background-image: url(https://www.mexx.com.ar/img/partners/slide-partner-hyperx.png);
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+.descrip{
+    width: 90%;
+    height: 30vh;
+}
+.text-conteiner , .image-descrip{
+    margin: .5rem;;
+    width: 50%;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.title-descrip{
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.text-descrip{
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+.image-descrip{
+    background-image: url(https://ar-media.hptiendaenlinea.com/wysiwyg/HyperX_Loot_Drop_II_encuentra_los_mejores_accesorios_para_videojuegos_2.jpg);
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.productos{
+    width: 90%;
+    background-color: black;
+    height: 13rem;
+    margin-top: 1.5rem;
+}
+.card{
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    height: 12rem;
+    margin: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    margin: .2rem;
+    width: 80%;
+    border-radius: 10px;
+    height: 60%;
+}
+.title-product{
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: .2rem;
+}
+.btn_comprar{
+    background-color: black;
+    color: white;
+    padding: .2rem;
+    border-radius: 5px;
+}
+.staff{
+    background-color: white;
+    padding: .5rem 0;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.title-staff{
+    
+    padding: .5rem;
+    background-color: black;
+    border-radius: 5px;
+    color: antiquewhite;
+    text-align: center;
+}
+.integrantes{
+    width: 95%;
+    padding: .5rem;
+}
+.card-integrante{
+    display: flex;
+    flex-direction: column;
+    margin: .2rem;
+    padding: .3rem;
+    border-radius: 3%;
+    background-color: black;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+.name_staff{
+    color: white;
+}
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+footer{
+    background-color: gray;
+    margin: 1rem;
+    width: 95%;
+}
